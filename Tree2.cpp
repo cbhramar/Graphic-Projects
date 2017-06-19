@@ -31,6 +31,6 @@ void botanicalTree(int order, double length, double theta, double x, double y){
         botanicalTree(order - 1, length*0.5, theta + PI/6, x + 0.7*length*cos(theta), y + 0.7*length*sin(theta));
         botanicalTree(order - 1, length*0.5, theta + PI/4, x + 0.7*length*cos(theta), y + 0.7*length*sin(theta));
         botanicalTree(order - 1, length*0.5, theta - PI/6, x + 0.6*length*cos(theta), y + 0.6*length*sin(theta));
-        botanicalTree(order - 1, length*0.6, theta, x + 0.8*length*cos(theta), y + 0.8*length*sin(theta));
+        botanicalTree(order - 1, length*0.5, theta, x + 0.65*length*cos(theta), y + 0.65*length*sin(theta));
     }
 }
