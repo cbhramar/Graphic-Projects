@@ -79,7 +79,7 @@ void drawFractalTree(int order, int l, double x, double y, double t){
         r.setColor(COLOR("black"));
         r.imprint();
         drawFractalTree(order - 2, l*0.7, x + l*cos(t), y + l*sin(t), t - PI/4 + (17 - order)*PI/150);
-        // drawFractalTree(order - 2, l*0.75, x + l*cos(t), y + l*sin(t), t + PI/6);
+        // drawFractalTree(order - 3, l*0.5, x + l*cos(t), y + l*sin(t), t + PI/6);
         drawFractalTree(order - 1, l*0.75, x + l*cos(t), y + l*sin(t), t + PI/4 + (17 - order)*PI/100);
         // drawFractalTree(order - 1, l*0.75, x + l*cos(t), y + l*sin(t), t - PI/6);
     }
